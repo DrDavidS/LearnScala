@@ -8,4 +8,7 @@
 /httpRequests/
 # scala-class
 *.class
+.classes
 .class
+#.DSstore
+.DS_store
