@@ -23,6 +23,13 @@ object Test02_Variable {
     a1 = 12
     // b1 = 11  // 会报错
 
-    val alice = new Student("alice", 20)
+    //val alice = new Student("alice", 20)
+    var alice = new Student("alice", 20)
+    alice = new Student("Alice", 20)
+    alice = null // var 随便改，val不行
+
+    val bob = new Student("bob", 23)
+    bob.age = 24
+    bob.printInfo()
   }
 }
