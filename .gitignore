@@ -1,3 +1,7 @@
 
 *.class
 .idea/misc.xml
+*.iml
+*.xml
+*.iml
+*.xml
