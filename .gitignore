@@ -1,7 +1,9 @@
-
+# 后缀
 *.class
 .idea/misc.xml
 *.iml
 *.xml
-*.iml
-*.xml
+
+# 文件夹
+/.idea
+/target
