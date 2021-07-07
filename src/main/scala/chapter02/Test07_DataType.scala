@@ -13,7 +13,7 @@ object Test07_DataType {
     val a4 = 12312312312312313L // 长整型定义，末尾加L
 
     val b1: Byte = 10
-    val b2: Byte = (10 + 20) // 实际上没有错，虽然报错了
+    //val b2: Byte = (10 + 20) // 实际上没有错，虽然报错了
 
     val b3: Byte = (b1 + 20).toByte // 没毛病，类型转换
 
@@ -55,8 +55,8 @@ object Test07_DataType {
     val a: Unit = m1()
     println("a:" + a) // 打印出来一个空括号
 
-    // 5.2 空引用Null
-    // val n:Int = null // error
+    //5.2 空引用Null
+    //val n: Int = null // error
     var student = new Student("alice", 20)
     student = null
     println("student: " + student) // null
