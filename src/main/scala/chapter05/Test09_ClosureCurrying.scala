@@ -52,6 +52,11 @@ object Test09_ClosureCurrying {
     println(addByFive2(25))
 
     // 5. 柯里化
-    // def addCurrying()
+    println("========== 函数的柯里化 =======")
+    def addCurrying(a: Int)(b: Int): Int = {
+      a + b
+    }
+
+    println(addCurrying(35)(24))
   }
 }
