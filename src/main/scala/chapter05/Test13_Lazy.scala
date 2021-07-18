@@ -12,6 +12,6 @@ object Test13_Lazy {
 
   def sum(a: Int, b: Int): Int = {
     println("3. sum调用")
-    return a + b
+    a + b
   }
 }
