@@ -26,6 +26,10 @@ object Test17_Extends {
     }
 
     println(classOf[Student17])
+    println("===============枚 举=====================")
+    // 测试枚举类
+    println(WorkDay.MONDAY)
+
   }
 }
 
@@ -43,4 +47,21 @@ class Student17(name: String, age: Int) extends Person17(name, age) {
   def study(): Unit = {
     println("student study")
   }
+}
+
+// 定义枚举类对象
+object WorkDay extends Enumeration {
+  val MONDAY = Value(1, "Monday")
+  val TUESDAY = Value(2, "Tuesday")
+}
+
+// 定义应用类对象
+object TestApp extends App {
+  // 它自带main方法，点进去看看源代码
+  println("App start")
+
+  // 自定义类型
+  type MyString = String
+  val a: MyString = "abc"
+  println(a)
 }
