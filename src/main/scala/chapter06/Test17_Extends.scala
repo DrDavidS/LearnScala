@@ -51,8 +51,8 @@ class Student17(name: String, age: Int) extends Person17(name, age) {
 
 // 定义枚举类对象
 object WorkDay extends Enumeration {
-  val MONDAY = Value(1, "Monday")
-  val TUESDAY = Value(2, "Tuesday")
+  val MONDAY: Value = Value(1, "Monday")
+  val TUESDAY: Value = Value(2, "Tuesday")
 }
 
 // 定义应用类对象
