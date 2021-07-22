@@ -1,5 +1,19 @@
 package chapter06
 
+/**
+ * 特质
+ *
+ * 在Java中，一个类只能继承一个父类，这叫"单继承"。
+ * Scala可以通过 Trait 来避免抽象类的单继承限制。
+ *
+ * 举例：
+ * 类A继承了父类Parent，并且具有了B，C，D的功能。
+ * 在Scala的语境中，就是说类A继承了Parent类的全部特性（就像一个人继承了父母的基因），
+ * 同时带上了自己本身特有的性质B，C，D
+ *
+ * 就像一个人可以有兄弟姐妹，你和你的兄弟姐妹都带有父母的基因，但是你总会有一些不同于你的兄弟姐妹的特点，
+ * 比如只有你会讲德语，而你的兄弟姐妹都不会。这个你会讲德语，就是你的特质Trait
+ */
 object Test13_Trait {
   def main(args: Array[String]): Unit = {
     val student = new Student13
