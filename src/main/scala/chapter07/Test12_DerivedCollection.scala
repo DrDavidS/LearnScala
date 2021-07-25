@@ -61,7 +61,7 @@ object Test12_DerivedCollection {
 
     // 12. 滑窗
     println("========= 滑窗 ========")
-    println(list1.sliding(2, 2))  // 还可以加步长
+    println(list1.sliding(2, 2)) // 还可以加步长
     for (elem <- list1.sliding(2, 2)) println(elem)
   }
 
