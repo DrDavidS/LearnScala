@@ -37,7 +37,7 @@ object Test09_MutableMap {
     val map2: Map[String, Int] = Map("NiHao" -> 3)
     val map3: Map[String, Int] = Map("Shanghai" -> 6)
     map1 ++= map2
-    map1.addAll(map3)
+    //map1.addAll(map3)
     println(map1)
   }
 }

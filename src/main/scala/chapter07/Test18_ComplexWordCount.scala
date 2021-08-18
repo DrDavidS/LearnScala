@@ -54,18 +54,18 @@ object Test18_ComplexWordCount {
     println(preCountMap)
 
     // step3 叠加每个单词去统计个数值
-    val countMap: Map[String, Int] = preCountMap.view.mapValues(
-      (tupleList: List[(String, Int)]) => tupleList.map(_._2) // 取后面的Int
-        .sum // 相加
-    ).toMap
-    println(countMap)
+    //    val countMap: Map[String, Int] = preCountMap.view.mapValues(
+    //      (tupleList: List[(String, Int)]) => tupleList.map(_._2) // 取后面的Int
+    //        .sum // 相加
+    //    ).toMap
+    //    println(countMap)
 
     // step4 转换为List排序取前三
-    val countList: List[(String, Int)] = countMap.toList
-      .sortWith((kv1: (String, Int), kv2: (String, Int)) => {
-        kv1._2 > kv2._2
-      }) // 简写你懂的： .sortWith(_._2 > _._2)
-      .take(3)
-    println(countList)
+//    val countList: List[(String, Int)] = countMap.toList
+//      .sortWith((kv1: (String, Int), kv2: (String, Int)) => {
+//        kv1._2 > kv2._2
+//      }) // 简写你懂的： .sortWith(_._2 > _._2)
+//      .take(3)
+//    println(countList)
   }
 }

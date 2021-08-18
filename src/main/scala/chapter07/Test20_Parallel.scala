@@ -1,6 +1,5 @@
 package chapter07
 
-import scala.collection.parallel.CollectionConverters._
 import scala.collection.parallel.immutable.ParSeq
 /**
  * https://github.com/scala/scala-parallel-collections

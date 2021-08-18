@@ -38,8 +38,8 @@ object Test12_DerivedCollection {
     // 8. 并集
     // 注意Set做并集会去重
     println("========= 并集 ========")
-    val union: List[Int] = list1.concat(list2)
-    println("union: " + union)
+    //val union: List[Int] = list1.concat(list2)
+    //println("union: " + union)
     println(list1 ::: list2)
 
     // 9. 交集
