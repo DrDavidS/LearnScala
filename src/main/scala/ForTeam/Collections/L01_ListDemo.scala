@@ -6,7 +6,7 @@ package ForTeam.Collections
  * 这里我们简单看看，List的基本应用。
  * 本节中，List这里特指的是不可变的List，可变的叫做ListBuffer
  */
-object ListDemo {
+object L01_ListDemo {
   def main(args: Array[String]): Unit = {
     /* 1. 创建一个List
     可以先看看List的实现，List是一个抽象类，所以我们创建List对象采用的是它的伴生对象的apply方法创建
