@@ -1,6 +1,6 @@
 package chapter07
 
-import scala.collection.parallel.immutable.ParSeq
+// import scala.collection.parallel.immutable.ParSeq
 /**
  * https://github.com/scala/scala-parallel-collections
  *
@@ -27,9 +27,9 @@ object Test20_Parallel {
     println(result1)
 
     // 并行
-    val result2:ParSeq[Long] = (1 to 100).par.map(
-      (x: Int) => Thread.currentThread.getId
-    )
-    println(result2)
+//    val result2:ParSeq[Long] = (1 to 100).par.map(
+    //      (x: Int) => Thread.currentThread.getId
+    //    )
+    //    println(result2)
   }
 }
