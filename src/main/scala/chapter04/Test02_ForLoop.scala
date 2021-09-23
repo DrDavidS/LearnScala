@@ -115,8 +115,9 @@ object Test02_ForLoop {
       println(i)
     }
     println("a = " + a)  // 空括号
-
+    println("\n==========循环返回值2===========")
     val b:IndexedSeq[Int] = for (i <- 1 to 10) yield i
     println("b = " + b)
+    println(b.last)
   }
 }

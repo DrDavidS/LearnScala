@@ -17,6 +17,12 @@ object Test10_Recursion {
 
   // 尾递归实现
   def tailFact(n: Int): Int = {
+    /**
+     *
+     * @param n 递归次数
+     * @param currRes 当前结果
+     * @return
+     */
     @tailrec
     def loop(n: Int, currRes: Int): Int = {
       if (n == 0) return currRes
